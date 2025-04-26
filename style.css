@@ -1,0 +1,175 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: url(./r3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+nav{
+    background-color: white;
+    box-shadow: 3px 3px 5px rgb(0,0,0,0.1);
+  
+
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a:hover{
+    background-color: #f0f0f0;
+}
+
+nav li:first-child{
+    margin-right: auto;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+
+}
+
+.sidebar a{
+    width: 100%;
+}
+
+.menu-button{
+    display: none;
+}
+
+.texts{
+    align-items: center;
+    display: block;
+    padding: 170px 0 0 70px;
+}
+
+.texts h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vw;
+}
+
+.texts p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    padding: 0 0 0 30px;
+
+}
+
+.Explore{
+    padding: 13px 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 0.6s ease;
+
+}
+.AI{
+    padding: 13px 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid rgb(5, 148, 5);
+    transition: 0.6s ease;
+}
+.Explore:hover{
+    background-color: white;
+    color: black;
+}
+.AI:hover{
+    color: black;
+    border: 2px solid black;
+}
+.buttons{
+    align-items: center;
+    display: block;
+    padding: 0 0 0 20px;
+}
+
+.section2{
+    background: black;
+    border-radius: 10px;
+    margin-top: 250px;
+}
+
+.unexplored{
+    text-align: center;
+    color: white;
+    padding: 50px 0 50px 0 ;
+    font-size: 6vw;
+
+}
+
+
+
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+      display: block;  
+    }
+    .texts h2{
+        font-size: 10vh;
+    }
+    .texts p{
+    padding: 0 0 0 13px;
+
+    }
+    .texts{
+        align-items: center;
+        margin-left: -60px;
+    }
+
+}
+
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+    
+}
+
+
