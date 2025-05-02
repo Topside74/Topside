@@ -46,9 +46,58 @@ nav{
     top: 40px;
     left: 40px;
     transition: 0.6s ease;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .box:hover{
     transform: scale(1.1);
 }
 
+.logo img{
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 60px;
+    border: 5px solid #333;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo h2{
+    position: relative;
+    top: 8px;
+}
+
+ul li{
+    font-size: 13px;
+}
+
+.tex{
+    height: 220px;
+    width: 300px;
+    position: relative;
+    top: 8px;
+    left: 100px;
+
+}
+
+.vert{
+    font-size: 25px;
+    font-weight: 700;
+    writing-mode: sideways-lr;
+    position: relative;
+    top: -180px;
+    left: 10px;
+    border-radius: 60px;
+    border: 5px solid #333;
+    padding: 5px;
+}
