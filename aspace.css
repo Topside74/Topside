@@ -40,7 +40,7 @@ nav{
 
 .box{
     height: 300px;
-    width: 460px;
+    width: 430px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     position: relative;
     top: 40px;
@@ -104,8 +104,8 @@ ul li{
 
 .btn{
     position: relative;
-    top: -125px;
-    right: -370px;
+    top: -122px;
+    right: -340px;
     
 }
 
