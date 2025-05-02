@@ -101,3 +101,20 @@ ul li{
     border: 5px solid #333;
     padding: 5px;
 }
+
+.btn{
+    position: relative;
+    top: -125px;
+    right: -370px;
+    
+}
+
+.visit{
+    background: rgb(55,255,55);
+    border: none;
+    height: 40px;
+    width: 80px;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 20px;
+}
