@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    color: #fff;
+}
+
+body{
+    background: #121212;
 }
 
 nav{
@@ -105,16 +110,19 @@ ul li{
 .btn{
     position: relative;
     top: -122px;
-    right: -340px;
-    
+    right: -340px;    
+}
+i{
+    color: #121212;
 }
 
 .visit{
     background: rgb(55,255,55);
     border: none;
-    height: 40px;
-    width: 80px;
-    padding: 5px;
+    height: 30px;
+    width: 90px;
+    padding: 3px;
     font-weight: 600;
     border-radius: 20px;
+    color: #121212;
 }
