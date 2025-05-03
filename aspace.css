@@ -41,6 +41,7 @@ nav{
     height: 100%;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 
@@ -56,14 +57,13 @@ nav{
     display: flex;
     flex-wrap: nowrap;
     background: #181818;
-    
-}
+ }
 
 
 
 
 .box:hover{
-    transform: scale(1.1);
+    transform: scale(1.06);
     border-bottom: 2px solid  rgba(57,255,20,1);
 }
 
