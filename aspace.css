@@ -89,7 +89,7 @@ nav{
 
 .logo h2{
     position: relative;
-    top: 8px;
+    top: px;
 }
 
 ul li{
@@ -100,7 +100,7 @@ ul li{
     height: 220px;
     width: 300px;
     position: relative;
-    top: 8px;
+    top: -10px;
     left: 100px;
 
 }
