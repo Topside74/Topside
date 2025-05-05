@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-space</title>
+    <link rel="stylesheet" href="./aindex.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              </a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="./contact.html">Contact US</a></li>
+            <li><a href="#">Tools</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="./aspace.html">A-space</a></li>
+            <li><a href="./protofolium.html">Protofolium</a></li>
+
+
+        </ul>
+        <ul>
+            <li><a href="#">Topside</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="./contact.html">Contact US</a></li>
+            <li class="hideOnMobile"><a href="#">Tools</a></li>
+            <li class="hideOnMobile"><a href="#">Services</a></li>
+            <li class="hideOnMobile"><a href="./aspace.html">A-space</a></li>
+            <li class="hideOnMobile"><a href="./protofolium.html">Protofolium</a></li>
+
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect y="4" width="24" height="2" fill="currentColor"/>
+                <rect y="11" width="24" height="2" fill="currentColor"/>
+                <rect y="18" width="24" height="2" fill="currentColor"/>
+              </svg>
+              </a></li>
+
+        </ul>
+    </nav>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+</body>
+</html>
