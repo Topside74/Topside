@@ -6,34 +6,9 @@
 
 }
 body{
-}
-.nav{
-    height: 15px;
-    width: 100%;
-    max-width: 100%;
-    backdrop-filter: blur(8px);
-    background-color: rgba(12, 16, 18, 0.8);
-    border-radius: 10px;
-    opacity: 1;
+    background: #121212;    
 }
 
 .parent{
-    align-content: center;
-    align-items: center;
-    display: flex;
-    flex: none;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 0px;
-    height: min-content;
-    justify-content: center;
-    overflow: visible;
-    padding: 0;
-    position: relative;
-    width: 100%;
+    
 }
-
-.all{
-    padding: 50px;
-}
-
